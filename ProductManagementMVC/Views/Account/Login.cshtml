@@ -1,0 +1,15 @@
+@model BusinessObjects.AccountMember
+@{
+    ViewData["Title"] = "Login";
+}
+<h2>Login</h2>
+<div class="alert alert-info">Demo accounts: admin@store.com / 123, staff@store.com / 123</div>
+<div class="row"><div class="col-md-4">
+<form asp-action="Login" method="post">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <div class="mb-3"><label asp-for="EmailAddress" class="form-label"></label><input asp-for="EmailAddress" class="form-control" /></div>
+    <div class="mb-3"><label asp-for="MemberPassword" class="form-label"></label><input asp-for="MemberPassword" type="password" class="form-control" /></div>
+    <button class="btn btn-primary">Login</button>
+</form>
+</div></div>
+@section Scripts { <partial name="_ValidationScriptsPartial" /> }

@@ -1,0 +1,17 @@
+/home/amtia/Documents/prn222/PRN222/Labs/Lab01_ProductManagementMVC/DataAccessObjects/bin/Debug/net10.0/DataAccessObjects.deps.json
+/home/amtia/Documents/prn222/PRN222/Labs/Lab01_ProductManagementMVC/DataAccessObjects/bin/Debug/net10.0/DataAccessObjects.dll
+/home/amtia/Documents/prn222/PRN222/Labs/Lab01_ProductManagementMVC/DataAccessObjects/bin/Debug/net10.0/DataAccessObjects.pdb
+/home/amtia/Documents/prn222/PRN222/Labs/Lab01_ProductManagementMVC/DataAccessObjects/bin/Debug/net10.0/BusinessObjects.dll
+/home/amtia/Documents/prn222/PRN222/Labs/Lab01_ProductManagementMVC/DataAccessObjects/bin/Debug/net10.0/BusinessObjects.pdb
+/home/amtia/Documents/prn222/PRN222/Labs/Lab01_ProductManagementMVC/DataAccessObjects/obj/Debug/net10.0/DataAccessObjects.csproj.AssemblyReference.cache
+/home/amtia/Documents/prn222/PRN222/Labs/Lab01_ProductManagementMVC/DataAccessObjects/obj/Debug/net10.0/DataAccessObjects.GeneratedMSBuildEditorConfig.editorconfig
+/home/amtia/Documents/prn222/PRN222/Labs/Lab01_ProductManagementMVC/DataAccessObjects/obj/Debug/net10.0/DataAccessObjects.AssemblyInfoInputs.cache
+/home/amtia/Documents/prn222/PRN222/Labs/Lab01_ProductManagementMVC/DataAccessObjects/obj/Debug/net10.0/DataAccessObjects.AssemblyInfo.cs
+/home/amtia/Documents/prn222/PRN222/Labs/Lab01_ProductManagementMVC/DataAccessObjects/obj/Debug/net10.0/DataAccessObjects.csproj.CoreCompileInputs.cache
+/home/amtia/Documents/prn222/PRN222/Labs/Lab01_ProductManagementMVC/DataAccessObjects/obj/Debug/net10.0/DataAcce.79975846.Up2Date
+/home/amtia/Documents/prn222/PRN222/Labs/Lab01_ProductManagementMVC/DataAccessObjects/obj/Debug/net10.0/DataAccessObjects.dll
+/home/amtia/Documents/prn222/PRN222/Labs/Lab01_ProductManagementMVC/DataAccessObjects/obj/Debug/net10.0/refint/DataAccessObjects.dll
+/home/amtia/Documents/prn222/PRN222/Labs/Lab01_ProductManagementMVC/DataAccessObjects/obj/Debug/net10.0/DataAccessObjects.pdb
+/home/amtia/Documents/prn222/PRN222/Labs/Lab01_ProductManagementMVC/DataAccessObjects/obj/Debug/net10.0/ref/DataAccessObjects.dll
+/home/amtia/Documents/prn222/PRN222/Labs/Lab01_ProductManagementMVC/DataAccessObjects/bin/Debug/net10.0/DataAccessObjects.runtimeconfig.json
+/home/amtia/Documents/prn222/PRN222/Labs/Lab01_ProductManagementMVC/DataAccessObjects/obj/Debug/net10.0/DataAccessObjects.genruntimeconfig.cache

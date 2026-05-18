@@ -1,0 +1,19 @@
+@model IReadOnlyList<BusinessObjects.Product>
+@{
+    ViewData["Title"] = "Products";
+}
+<h1>Products</h1>
+<p>Welcome @ViewBag.Username | <a asp-controller="Account" asp-action="Logout">Logout</a></p>
+<p><a asp-action="Create" class="btn btn-primary">Create New</a></p>
+<table class="table table-striped">
+<thead><tr><th>Name</th><th>Stock</th><th>Price</th><th>Category</th><th></th></tr></thead>
+<tbody>
+@foreach (var item in Model)
+{
+    <tr>
+        <td>@item.ProductName</td><td>@item.UnitsInStock</td><td>@item.UnitPrice.ToString("C")</td><td>@item.Category?.CategoryName</td>
+        <td><a asp-action="Edit" asp-route-id="@item.ProductId">Edit</a> | <a asp-action="Details" asp-route-id="@item.ProductId">Details</a> | <a asp-action="Delete" asp-route-id="@item.ProductId">Delete</a></td>
+    </tr>
+}
+</tbody>
+</table>
