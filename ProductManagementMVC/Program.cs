@@ -37,9 +37,9 @@ if (!app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+app.UseStaticFiles();
 app.UseRouting();
 app.UseSession();
 app.UseAuthorization();
-app.MapStaticAssets();
-app.MapControllerRoute(name: "default", pattern: "{controller=Products}/{action=Index}/{id?}").WithStaticAssets();
+app.MapControllerRoute(name: "default", pattern: "{controller=Products}/{action=Index}/{id?}");
 app.Run();

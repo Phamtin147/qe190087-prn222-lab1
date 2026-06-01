@@ -1,0 +1,12 @@
+/home/amtia/Documents/prn222/PRN222/Labs/Lab01_ProductManagementMVC/BusinessObjects/bin/Debug/net8.0/BusinessObjects.deps.json
+/home/amtia/Documents/prn222/PRN222/Labs/Lab01_ProductManagementMVC/BusinessObjects/bin/Debug/net8.0/BusinessObjects.dll
+/home/amtia/Documents/prn222/PRN222/Labs/Lab01_ProductManagementMVC/BusinessObjects/bin/Debug/net8.0/BusinessObjects.pdb
+/home/amtia/Documents/prn222/PRN222/Labs/Lab01_ProductManagementMVC/BusinessObjects/obj/Debug/net8.0/BusinessObjects.GeneratedMSBuildEditorConfig.editorconfig
+/home/amtia/Documents/prn222/PRN222/Labs/Lab01_ProductManagementMVC/BusinessObjects/obj/Debug/net8.0/BusinessObjects.AssemblyInfoInputs.cache
+/home/amtia/Documents/prn222/PRN222/Labs/Lab01_ProductManagementMVC/BusinessObjects/obj/Debug/net8.0/BusinessObjects.AssemblyInfo.cs
+/home/amtia/Documents/prn222/PRN222/Labs/Lab01_ProductManagementMVC/BusinessObjects/obj/Debug/net8.0/BusinessObjects.csproj.CoreCompileInputs.cache
+/home/amtia/Documents/prn222/PRN222/Labs/Lab01_ProductManagementMVC/BusinessObjects/obj/Debug/net8.0/BusinessObjects.sourcelink.json
+/home/amtia/Documents/prn222/PRN222/Labs/Lab01_ProductManagementMVC/BusinessObjects/obj/Debug/net8.0/BusinessObjects.dll
+/home/amtia/Documents/prn222/PRN222/Labs/Lab01_ProductManagementMVC/BusinessObjects/obj/Debug/net8.0/refint/BusinessObjects.dll
+/home/amtia/Documents/prn222/PRN222/Labs/Lab01_ProductManagementMVC/BusinessObjects/obj/Debug/net8.0/BusinessObjects.pdb
+/home/amtia/Documents/prn222/PRN222/Labs/Lab01_ProductManagementMVC/BusinessObjects/obj/Debug/net8.0/ref/BusinessObjects.dll
