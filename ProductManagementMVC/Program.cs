@@ -6,7 +6,7 @@ using Services;
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllersWithViews();
-builder.Services.AddDbContext<MyStoreContext>(options => options.UseMySql(builder.Configuration.GetConnectionString("MyStoreDB"), ServerVersion.Parse("10.4.32-mariadb")));
+builder.Services.AddDbContext<MyStoreContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("MyStoreDB")));
 builder.Services.AddScoped<CategoryDAO>();
 builder.Services.AddScoped<ProductDAO>();
 builder.Services.AddScoped<AccountDAO>();

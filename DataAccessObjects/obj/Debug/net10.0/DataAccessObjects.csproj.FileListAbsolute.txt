@@ -15,3 +15,4 @@
 /home/amtia/Documents/prn222/PRN222/Labs/Lab01_ProductManagementMVC/DataAccessObjects/obj/Debug/net10.0/ref/DataAccessObjects.dll
 /home/amtia/Documents/prn222/PRN222/Labs/Lab01_ProductManagementMVC/DataAccessObjects/bin/Debug/net10.0/DataAccessObjects.runtimeconfig.json
 /home/amtia/Documents/prn222/PRN222/Labs/Lab01_ProductManagementMVC/DataAccessObjects/obj/Debug/net10.0/DataAccessObjects.genruntimeconfig.cache
+/home/amtia/Documents/prn222/PRN222/Labs/Lab01_ProductManagementMVC/DataAccessObjects/obj/Debug/net10.0/DataAccessObjects.sourcelink.json

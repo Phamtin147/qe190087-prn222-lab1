@@ -15,3 +15,4 @@
 /home/amtia/Documents/prn222/PRN222/Labs/Lab01_ProductManagementMVC/Repositories/obj/Debug/net10.0/refint/Repositories.dll
 /home/amtia/Documents/prn222/PRN222/Labs/Lab01_ProductManagementMVC/Repositories/obj/Debug/net10.0/Repositories.pdb
 /home/amtia/Documents/prn222/PRN222/Labs/Lab01_ProductManagementMVC/Repositories/obj/Debug/net10.0/ref/Repositories.dll
+/home/amtia/Documents/prn222/PRN222/Labs/Lab01_ProductManagementMVC/Repositories/obj/Debug/net10.0/Repositories.sourcelink.json

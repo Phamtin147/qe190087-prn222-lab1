@@ -40,9 +40,7 @@ public static class DatabaseSeeder
 
     private static void RecreateIfOldSchema(MyStoreContext context)
     {
-        var userNameColumns = context.Database
-            .SqlQueryRaw<int>("SELECT COUNT(*) AS Value FROM information_schema.COLUMNS WHERE TABLE_SCHEMA = DATABASE() AND TABLE_NAME = 'AccountMember' AND COLUMN_NAME = 'UserName'")
-            .Single();
+        var userNameColumns = CountUserNameColumns(context);
 
         if (userNameColumns > 0)
         {
@@ -55,15 +53,23 @@ public static class DatabaseSeeder
 
     private static void MakeUserNameOptional(MyStoreContext context)
     {
-        var userNameColumns = context.Database
-            .SqlQueryRaw<int>("SELECT COUNT(*) AS Value FROM information_schema.COLUMNS WHERE TABLE_SCHEMA = DATABASE() AND TABLE_NAME = 'AccountMember' AND COLUMN_NAME = 'UserName'")
-            .Single();
+        var userNameColumns = CountUserNameColumns(context);
 
         if (userNameColumns == 0)
         {
             return;
         }
 
-        context.Database.ExecuteSqlRaw("ALTER TABLE AccountMember MODIFY UserName VARCHAR(30) NULL");
+        DropUserNameIndex(context);
+        context.Database.ExecuteSqlRaw("ALTER TABLE AccountMember ALTER COLUMN UserName NVARCHAR(30) NULL");
+    }
+
+    private static int CountUserNameColumns(MyStoreContext context) => context.Database
+        .SqlQueryRaw<int>("SELECT COUNT(*) AS Value FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = 'AccountMember' AND COLUMN_NAME = 'UserName'")
+        .Single();
+
+    private static void DropUserNameIndex(MyStoreContext context)
+    {
+        context.Database.ExecuteSqlRaw("IF EXISTS (SELECT 1 FROM sys.indexes WHERE name = 'IX_AccountMember_UserName' AND object_id = OBJECT_ID('AccountMember')) DROP INDEX IX_AccountMember_UserName ON AccountMember");
     }
 }

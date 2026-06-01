@@ -17,3 +17,4 @@
 /home/amtia/Documents/prn222/PRN222/Labs/Lab01_ProductManagementMVC/Services/obj/Debug/net10.0/refint/Services.dll
 /home/amtia/Documents/prn222/PRN222/Labs/Lab01_ProductManagementMVC/Services/obj/Debug/net10.0/Services.pdb
 /home/amtia/Documents/prn222/PRN222/Labs/Lab01_ProductManagementMVC/Services/obj/Debug/net10.0/ref/Services.dll
+/home/amtia/Documents/prn222/PRN222/Labs/Lab01_ProductManagementMVC/Services/obj/Debug/net10.0/Services.sourcelink.json
